@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<link rel="stylesheet" href="css/index.min.css">
+		<script src = "js/require.js" async = "true" defer data-main = "js/main"></script>
+	</head>
+	<body>
+	<!-- 头部 -->
+		<div id="header" style="top:-80px">
+			<div class="navbar">
+				<div class="navbar-content">
+					<div id="region-selection" data-currentid="1" class="hover">
+						<!-- ::before -->
+						<span>青岛</span>
+						<div class="region-pop" style="display:none"></div>
+						
+					</div>
+					<ul class="nav-right">
+						<li class="ordercenter">
+							<i></i>
+							<a href="">登录</a>
+						</li>
+						<li class="recyclecart">
+							<a href="">回收车0件</a>
+						</li>
+						<li class="heighlignt">
+							<a href="">关于我们</a>
+						</li>
+						<li>
+							<a href="">企业回收</a>
+						</li>
+						<li>
+							<a href="">开放平台</a>
+						</li>
+						<li>
+							<a href="">帮助中心</a>
+						</li>
+						<li class="sitemap">
+							<a href="">网站导航</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="top-area">
+				<div class="search">
+					<span class="icon-logo"></span>
+					<a href="/activity?name=databackup" class="backup" title="爱回收网,一分钟快速备份手机数据" target="_blank">
+                    <img src="images/home_entrance.png">
+                </a>						
+					</a>
+					<div class="searchbox">
+						<input type="text" id="txt-keyword" placeholder="请输入机器型号">
+						<a id="btnSearchKeyWords" href="/shouji" title="二手手机回收｜旧手机回收｜二手手机交易－爱回收">
+                    	</a>
+					</div>
+				</div>
+				<div class="nav-projects">
+					<div class="tab-menu">
+						<ul class="clearfix">
+							<li>
+								<a href="http://www.aihuishou.com" target="_blank" class="activemenu first-tab" title="手机回收,二手手机回收,专业靠谱的数码产品回收平台"> 旧机回收 
+								<i></i>
+								</a>
+							</li>
+							<li class="erCode">
+								<a href="http://www.aihuishou.com" class="special" title="爱回收公众号"> 
+	                                爱回收公众号
+	                                <!-- <i></i> -->
+	                                <span class="tip">福利</span>
+	                                <span class="jiantou"></span>
+                           		</a>
+                            	<div class="ahsCont">
+	                                <img src="images/ahs_gongzhong.png" alt="">
+	                              <!--   <p>扫码关注公众号<br><span>领新人加价礼包</span></p> -->
+                            </div>
+							</li>
+							<li class="erCode">
+								<a href="http://www.aihuishou.com" class="special" title="爱回收App"> 
+                                爱回收App
+                                <!-- <i></i> -->
+                                <span class="tip gujia">一键估价</span>
+                                <span class="jiantou jiantou2"></span>
+                            </a>
+							</li>
+							<li><a href="">公益助学</a></li>
+							<li><a href="">手机快修</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 内容 -->
+		<div id="body">
+		<!-- 1 -->
+			<div id="section-banner">
+				<a style="background-image: url(images/6366572418968265301509901686.png)" class="pic"></a>
+				<div id="ul-Box">
+					<ul class="nav">
+						<li class="phone">
+							<dl>
+								<dt>
+
+									<a href="/shouji" target="_blank" title="手机回收">手机回收</a>			
+								</dt>
+							</dl>
+						</li>
+						<li class="ipad">
+							<dl>
+								<dt>
+									<a href="/shouji" target="_blank" title="平板电脑回收">平板电脑回收</a>			
+								</dt>
+							</dl>
+						</li>
+						<li class="computer">
+							<dl>
+								<dt>
+									<a href="/shouji" target="_blank" title="笔记本回收">笔记本回收</a>			
+								</dt>
+							</dl>
+						</li>
+						<li class="camera">
+							<dl>
+								<dt>
+									<a href="/shouji" target="_blank" title="摄影摄像回收">摄影摄像回收</a>			
+								</dt>
+							</dl>
+						</li>
+						<li class="intelligen">
+							<dl>
+								<dt>
+									<a href="/shouji" target="_blank" title="智能数码回收">智能数码回收</a>			
+								</dt>
+							</dl>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- 2 -->
+			<div id="section-flow">
+				<ul>
+					<li>
+						<i></i>
+						<span>1.搜索机型</span>	
+					</li>
+					<li>
+						<i></i>
+						<span>2.商家报价</span>
+					</li>
+					<li>
+						<i></i>
+						<span>3.提交订单</span>
+					</li>
+					<li>
+						<i></i>
+						<span>4.当面回收</span>
+					</li>
+				</ul>
+			</div>
+			<!-- 3 -->
+			<div id="section-hotsales">
+				<div class="hotsales">
+					<ul class="hotsales-header">
+						<li><span>手机</span></li>
+						<li><span>笔记本</span></li>
+						<li><span>电脑</span></li>
+						<li><span>摄影摄像</span></li>
+						<li><span>智能数码</span></li>
+
+					</ul>
+					<div class="hotsales-body">
+						<div class="loading-gif" style="display:none">
+							<img src="images/loading.gif">
+						</div>
+						<div id="hotsale-list1" class="hotsale-list">
+							<div class="info">
+								<ul class="nav-brands h-ul">
+									<li>
+										<img src="images/636554356042658700177557392.png">
+									</li>
+									<li>
+										<img src="images/6365543561901770801855937043.png">
+									</li>
+									<li>
+										<img src="images/636555225940572780327500819.png">
+									</li>
+									<li>
+										<img src="images/6365552425683138301793639598.png">
+									</li>
+									<li>
+										<img src="images/6365552421474824301314348180.png">
+									</li>
+									<li>
+										<img src="images/636555226586789380679619129.png">
+									</li>
+									<li>
+										<img src="images/6365552348860731601262323759.png">
+									</li>
+									<li>
+										<img src="images/636555225609990780178710919.png">
+									</li>
+									<li>
+										<a href="/shouji"
+										target="_blank">
+											<i class="icon"></i>
+											<i class="icon"></i>
+											<i class="icon"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="hotsale-prods">						</div>
+							<div id="hotsale-list2" class="hotsale-list show"></div>
+							<div id="hotsale-list3" class="hotsale-list"></div>
+							<div id="hotsale-list4" class="hotsale-list"></div>
+							<div id="hotsale-list5" class="hotsale-list"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="section-service">
+				<span class="title">青岛地区共享服务</span>
+				<div class="stores-info">
+					<div class="col-left">
+						<a>
+							<span class="tips-title">您身边的爱回收服务站</span>
+							<img src="images/outlet.png">
+						</a>
+
+					</div>
+					<div class="col-right">
+						<div class="store-list">
+							<span>全部门店(2)</span>
+						</div>
+						<div class="adress">
+							<div class="region">市北区(1)</div>
+							<div class="region">李沧区(1)</div>
+						</div>
+						<ul>
+							<li>
+								<a>青岛凯德mall店</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="free-service">
+						<span class="tips-title">方便快捷的上门服务</span>
+						<span class="tips">青岛部分地区的用户，可享受质检小哥优质上门服务</span>
+						<a class="range">查看具体服务范围 ></a>
+						<ul class="pros">
+							<li>
+								<i></i>
+								<span>专业</span>
+							</li>
+							<li>
+								<i></i>
+								<span>放心</span>
+							</li>
+							<li>
+								<i></i>
+								<span>高效</span>
+							</li>
+						</ul>
+					</div>
+
+			</div>
+			<!-- 4 -->
+			<div id="section-usershare">
+				<div class="usershare">
+					<span class="title">爱回收7年</span>
+					<div class="share">
+
+
+					</div>
+				</div>
+			</div>
+
+
+			<!-- 5 -->
+			<div id="section-partners">
+				<div class="partners">
+					<span class="title">合作伙伴</span>
+					<table>
+						<tr>
+							<td rowspan="3">
+								<i class="bank"></i>
+								<span>世界银行投资企业</span>
+							</td>
+							<td rowspan="3">
+								<i class="jidong"></i>
+								<span>京东战略投资伙伴</span>
+							</td>
+							<td>
+								<i class="huawei"></i>
+							</td>
+							<td>
+								<i class="meizu"></i>
+							</td>
+							<td>
+								<i class="xiaomi"></i>
+							</td>
+						</tr>
+						<tr>
+							<td><i></i></td>
+							<td><i></i></td>
+							<td><i></i></td>
+						</tr>
+						<tr>
+							<td><i></i></td>
+							<td><i></i></td>
+							<td><i></i></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div id="section-newsmedia"></div>
+			<div id="section-strengths"></div>
+		</div>
+	</body>
+</html>
